@@ -1,0 +1,108 @@
+name: study_guardian
+
+description: "A Smart Study & Distraction Management App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # ==========================================
+  # GEMINI AI - AI SUMMARIZER
+  # ==========================================
+  google_generative_ai: ^0.4.7
+
+  # ==========================================
+  # PPTX TEXT EXTRACTION
+  # ==========================================
+  archive: ^4.0.7
+  xml: ^6.6.0
+
+  # ==========================================
+  # FILE PICKER - PDF / PPT / OTHER FILES
+  # ==========================================
+  file_picker: ^10.3.10
+
+  # ==========================================
+  # IMAGE PICKER - PHOTO NOTES
+  # ==========================================
+  image_picker: ^1.1.2
+
+  # ==========================================
+  # PDF VIEWER
+  # ==========================================
+  flutter_pdfview: ^1.4.1+1
+
+  # ==========================================
+  # SYNCFUSION PDF
+  # ==========================================
+  syncfusion_flutter_pdf: ^33.2.13
+  syncfusion_flutter_pdfviewer: ^33.2.13
+
+  # ==========================================
+  # OPEN FILES
+  # ==========================================
+  open_file: ^3.5.10
+
+  # ==========================================
+  # LOCAL NOTIFICATIONS
+  # Immediate + Full-Screen Notifications
+  # ==========================================
+  flutter_local_notifications: ^19.5.0
+
+  # ==========================================
+  # TIMEZONE
+  # ==========================================
+  timezone: ^0.10.1
+  flutter_timezone: ^4.1.1
+
+  # ==========================================
+  # PERMISSIONS
+  # ==========================================
+  permission_handler: ^11.4.0
+
+  # ==========================================
+  # DATABASE
+  # ==========================================
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # ==========================================
+  # BACKGROUND ALARM
+  # Reliable background 30-second reminders
+  # ==========================================
+  android_alarm_manager_plus: ^4.0.8
+
+  # ==========================================
+  # FOREGROUND SERVICE
+  # ==========================================
+  flutter_foreground_task: ^8.17.0
+
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # ==========================================
+  # HIVE GENERATOR
+  # ==========================================
+  hive_generator: ^2.0.1
+
+  build_runner: ^2.4.13
+
+
+flutter:
+
+  uses-material-design: true
